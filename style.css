@@ -43,6 +43,8 @@ img{
     width: 400px;
     background-color: #e5e7eb5b;
     text-align: center;
+    padding: 77px;
+    box-sizing: border-box;
     /* margin-right: auto; */
     /* margin-left: 30px; */
 }
@@ -62,7 +64,7 @@ img{
 }
 main{
     font-family: "Roboto", sans-serif;
-    padding: 20px;
+    padding:20px 0 20px 0;
     display: flex;
     flex-direction: column;
 }
@@ -90,4 +92,23 @@ main{
     border: 2px solid #3882f6;
     border-radius: 6px;
 }
-
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    color: #1F2937;
+    padding: 50px;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    width: 600px;
+}
+.quote-author{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 480px;
+}
