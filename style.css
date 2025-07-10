@@ -60,3 +60,34 @@ img{
     border: #3882f6;
     border-radius: 6px;
 }
+main{
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.cards-title{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin : 0 0 20px 0
+}
+.info-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.card-size, .card-text {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 5px;
+    color: #1F2937;
+}
+.card  {
+    border: 2px solid #3882f6;
+    border-radius: 6px;
+}
+
